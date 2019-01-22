@@ -32,7 +32,9 @@ public class VerticalScrollViewFlipper extends ViewFlipper {
         for (int i = 0; i < adapter.getCount(); i++) {
             addView(adapter.getView(i, null, this));
         }
-        startFlipping();
+        if (adapter.getCount() > 1) {
+            startFlipping();
+        }
     }
 
 }
