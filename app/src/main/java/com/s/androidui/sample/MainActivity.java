@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         List<SampleItem> samples = new ArrayList<>();
         samples.add(new SampleItem("AdapterViewFlipper", "", AdapterViewFlipperDemo.class));
+        samples.add(new SampleItem("VerticalScrollViewFlipper", "", VerticalScrollViewFlipperDemo.class));
 
         SampleAdapter adapter = new SampleAdapter(this, samples);
         mListView.setAdapter(adapter);
