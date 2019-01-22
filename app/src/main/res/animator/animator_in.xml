@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<set xmlns:android="http://schemas.android.com/apk/res/android">-->
-    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
-        android:duration="1500"
-        android:propertyName="translateY"
-        android:valueTo="0" />
-<!--</set>-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:propertyName="translationY"
+    android:valueFrom="500"
+    android:valueTo="0" />
